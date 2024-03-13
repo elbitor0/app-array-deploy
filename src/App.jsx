@@ -8,7 +8,7 @@ import './F1.css'
     
 function App() {
     return (
-      <Router>
+      <Router basename='app-array-deploy'>
        <Routes>
            <Route path="/" element = {<Home/>} />
            <Route path="/List" element = {<ListDrivers/>} />
