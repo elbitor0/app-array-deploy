@@ -12,7 +12,7 @@ function App() {
        <Routes>
            <Route path="/" element = {<Home/>} />
            <Route path="/List" element = {<ListDrivers/>} />
-           <Route paht ="/table" element = {<TableDrivers/>} />
+           <Route path ="/table" element = {<TableDrivers/>} />
            <Route path="*" element = { <PageNotFound /> } />            
        </Routes>
    </Router>
